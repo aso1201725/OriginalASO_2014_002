@@ -26,7 +26,7 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080009;
-        public static final int btnOK=0x7f080002;
+        public static final int btnBack=0x7f080002;
         public static final int btnOK2=0x7f080005;
         public static final int btnOK3=0x7f080003;
         public static final int edtName=0x7f080000;

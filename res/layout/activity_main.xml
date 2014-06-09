@@ -22,7 +22,7 @@
     </EditText>
 
     <Button
-        android:id="@+id/btnOK"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/edtName"
@@ -34,7 +34,7 @@
         android:id="@+id/btnOK3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnOK"
+        android:layout_below="@+id/btnBack"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
         android:text="ひとことチェック" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:layout_toRightOf="@+id/btnOK"
+        android:layout_toRightOf="@+id/btnBack"
         android:text="今日の一言" />
 
     <Button
