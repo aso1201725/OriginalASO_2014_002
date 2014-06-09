@@ -27,7 +27,7 @@
         android:layout_alignLeft="@+id/linearLayout1"
         android:layout_below="@+id/linearLayout1"
         android:layout_marginTop="52dp"
-        android:text="Button" />
+        android:text="戻る" />
 
     <Button
         android:id="@+id/btnOK2"
@@ -36,6 +36,6 @@
         android:layout_alignBottom="@+id/btnOK"
         android:layout_marginLeft="30dp"
         android:layout_toRightOf="@+id/btnOK"
-        android:text="Button" />
+        android:text="削除" />
 
 </RelativeLayout>
