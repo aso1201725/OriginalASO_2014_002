@@ -22,7 +22,7 @@
     </EditText>
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnENTR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/edtName"
@@ -34,35 +34,36 @@
         android:id="@+id/btnOK3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnBack"
+        android:layout_below="@+id/btnENTR"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="57dp"
         android:text="ひとことチェック" />
+
+    <Button
+        android:id="@+id/btnMNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnENTR"
+        android:layout_alignBottom="@+id/btnENTR"
+        android:layout_alignRight="@+id/edtName"
+        android:text="メンテ" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txvMsg"
-        android:layout_below="@+id/txvMsg"
+        android:layout_below="@+id/txvHITOKOTO"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="ひとことを登録" />
 
     <TextView
-        android:id="@+id/txvMsg"
+        android:id="@+id/txvHITOKOTO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="16dp"
-        android:layout_toRightOf="@+id/btnBack"
+        android:layout_marginTop="33dp"
         android:text="今日の一言" />
-
-    <Button
-        android:id="@+id/btnOK2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnOK3"
-        android:layout_toRightOf="@+id/txvMsg"
-        android:text="メンテ" />
 
 </RelativeLayout>

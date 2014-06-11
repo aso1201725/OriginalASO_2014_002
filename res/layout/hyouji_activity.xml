@@ -13,7 +13,7 @@
         android:src="@drawable/chuukichi" />
 
     <TextView
-        android:id="@+id/txvMsg"
+        android:id="@+id/txvHITOKOTO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageView1"
