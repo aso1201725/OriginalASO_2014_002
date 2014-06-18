@@ -82,7 +82,7 @@ public class MaintenanceActivity extends Activity implements View.OnClickListene
 		btnDLT.setOnClickListener(this);
 
 		// ListViewにOnItemClickListenerをセット
-		lstHitokoto.setOnClickListener(this);
+		lstHitokoto.setOnItemClickListener(this);
 
 		// ListViewにDBの値をセット
 		this.setDBValuetoList(lstHitokoto);
